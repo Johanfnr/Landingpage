@@ -260,3 +260,66 @@ body{
 .card_job{
     color: #aaa9a9;
 }
+
+
+.join{
+    background-image: linear-gradient(var(--blue-main)50%, var(--blue-footer) 50%);
+    color: #fff;
+    padding: 60px 0;
+}
+.join_container{
+    background-color: var(--blue-testimonials);
+    border-radius: 8px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-align: center;
+}
+
+.join_title{
+    font-family: var(--heading-font);
+    margin-bottom: 1em;
+}
+
+.join_paragraph{
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+.join_form{
+    display: block;
+
+}
+
+
+
+.join_input{
+    padding: 15px 20px;
+    font: inherit;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
+.join_input--text{
+    width: 97%;
+    padding: 5px;
+    outline: none;   
+}
+
+.join_input--submit{
+    width: 100%;
+    background-image: var(--gradient);
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    place-self: center;
+    cursor: pointer;
+    margin-top: 1.2em;
+}
+
+.join_input--submit:hover{
+    border-radius: 2em;
+    color: gray;
+    font-weight: bold;
+    place-self: center;
+ }
