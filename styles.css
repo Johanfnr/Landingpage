@@ -323,3 +323,75 @@ body{
     font-weight: bold;
     place-self: center;
  }
+
+ label {
+    line-height: 1.9rem;
+  }
+
+.footer{
+    background-color: var(--blue-footer);
+    color: #fff;
+}
+
+.footer_items{
+    display: grid;
+    gap: 1em;
+}
+
+.footer_logo{
+    width: 150px;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.footer_contact{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.footer_contact--second{
+    margin-bottom: 1em;
+}
+
+.footer_icon{
+    margin-top: 3px;
+    width: 40px;
+}
+
+.footer_nav{
+    margin-top: 2.5em;
+    display: grid;
+    gap: .8em;
+}
+
+.footer_link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_social{
+    margin-top: 2em;
+    margin: 0 auto;
+}
+
+.footer_media{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: 20px;
+    }
+
+.footer_media--last{
+    margin-right: 0;
+}
+
+.footer_img{
+    width: 1.5em;
+    height: 1.5em;
+}
