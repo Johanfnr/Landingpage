@@ -161,3 +161,41 @@ body{
     margin-bottom: 1em;
     font-family: var(--heading-font);
 }
+
+.productive{
+    color: #fff;
+    display: grid;
+    gap: 3em;
+}
+
+.productive_img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.productive_title{
+    font-family: var(--heading-font);
+    margin-bottom: .7em;
+}
+
+.productive_paragraph{
+    line-height: 1.7;
+    margin-bottom: 1em;
+}
+
+.productive_cta{
+    display: inline-block;
+    color: var(--cyan-gradient);
+    line-height: 2.5;
+    text-decoration: none;
+    border-bottom:  1px solid var(--cyan-gradient);
+}
+
+.productive_arrow{
+    width: 1em;
+    height: 1em;
+    margin-left: .3em;
+    vertical-align: middle;
+}
