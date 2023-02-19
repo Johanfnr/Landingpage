@@ -51,3 +51,38 @@ body{
     background-image: url();
     background-size: 100% 100px;
 }
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav_logo{
+    width: 150px;
+}
+
+.nav_img{
+    width: 100%;
+    display: block;
+}
+
+.nav_link{
+    display: inline-block;
+    color: #aaa9a9;
+    text-decoration: none;
+    margin-left: .8em;
+}
+
+.nav_link:hover{
+	background-color: var(--blue-gradient);
+	border-color: white;
+	color: white;
+}
