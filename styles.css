@@ -199,3 +199,64 @@ body{
     margin-left: .3em;
     vertical-align: middle;
 }
+
+.card{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.card_item{
+    background-color: var(--blue-testimonials);
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5em 1em;
+    border-radius: 4px;
+    box-shadow: 1px 1px -5px rgb(255, 255, 255, .5);
+
+}
+
+.card_item--first{
+    position: relative;
+}
+.card_item--first::before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-image: url();
+    width: 30px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.card_profile{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.card_picture{
+    width: 30px;
+    height: 30px;
+}
+
+.card_img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card_name{
+    font-size: 1.2rem;
+    font-family: var(--heading-font);
+}
+
+.card_job{
+    color: #aaa9a9;
+}
