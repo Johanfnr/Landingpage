@@ -348,10 +348,12 @@ body{
     display: flex;
     align-items: flex-start;
     gap: 5px;
+    color: #fff;
 }
 
 .footer_contact--second{
     margin-bottom: 1em;
+    color: #fff;
 }
 
 .footer_icon{
